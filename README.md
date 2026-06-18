@@ -1,13 +1,37 @@
-# AI FirstMove V3
+# AI FirstMove V5｜淘金地图优先版
 
-A static GitHub Pages site for AI opportunities, interviews, hackathons, jobs, research cards and youth-friendly action plans.
+这是 AI先机 V5：在 V4 的 UI 和部署方式基础上，继续强化“淘金地图、变现线索地图、小红书/抖音、国内深度访谈、交叉验证和多级信源”。
 
-## Automatic refresh
+## V5 重点变化
 
-`.github/workflows/update-and-deploy.yml` runs every 6 hours, generates `assets/live-data.js`, and deploys the refreshed site to GitHub Pages in the same workflow.
+- 首页前置「淘金地图」：先看谁付款、交付什么、7天怎么验证，再看工具和比赛。
+- 新增「变现线索地图」：小红书、抖音、播客、官方商业化入口、研究和反方风险统一呈现。
+- 比赛/黑客松改为「特殊机会」：服务作品集、奖金、队友和官方资源，不再喧宾夺主。
+- 新增小红书/抖音官方商业化入口：小红书蒲公英、巨量星图。
+- 新增国内深度访谈与播客线索：搞钱女孩、满地找钱、十字路口等公开入口。
+- 新增交叉验证框架：第一性原理、逻辑编排、工程治理、交叉验证、青年友好。
+- 保留 GitHub Actions 每6小时更新。
 
-## Required GitHub Pages setting
+## 继续使用网页版上传
 
-`Settings -> Pages -> Source: GitHub Actions`
+1. 解压 ZIP。
+2. 打开 GitHub 仓库。
+3. `Add file → Upload files`。
+4. 把解压后所有内容拖进去。
+5. 提交到 `main`。
+6. `Settings → Pages → Source` 选择 `GitHub Actions`。
+7. `Actions → Update and deploy AI FirstMove → Run workflow`。
 
-The repository branch remains `main`.
+## 路径选择
+
+- 代码仍放在 `main`。
+- Pages 发布来源选择 `GitHub Actions`。
+- 原网址不变。
+
+## 内容原则
+
+- 官方入口 = S级。
+- 媒体/研究 = A级。
+- 播客/访谈 = B级案例线索。
+- 小红书/抖音单个爆款 = C级待核验线索。
+- 永远不承诺收益，不搬运付费内容，不伪造链接。
