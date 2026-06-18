@@ -1,0 +1,162 @@
+window.AI_FIRSTMOVE_V7 = {
+  version: 'V7 · 城市青年AI淘金地图',
+  generatedAt: '2026-06-19T06:42:00+08:00',
+  naming: {
+    finalName: 'AI先机｜城市青年AI淘金地图',
+    shortName: 'AI先机',
+    productLine: '淘金雷达',
+    decision: '不建议彻底改名。AI先机保留长期品牌，城市青年AI淘金地图作为首页主定位；这样既保留可信度，又把“变现、城市、青年”三个重点打透。'
+  },
+  firstPrincipleFixes: [
+    { key: '付款优先', title: '先找付款人，不先找热点', body: '任何线索都必须回答：谁付钱、为什么现在付钱、愿意为什么结果付钱。没有付款对象，只能作为学习/比赛/作品集机会。', level: '核心' },
+    { key: '城市优先', title: '大学生拿资源靠附近', body: '城市里的高校、园区、创业沙龙、线下活动、本地商家和同城搭子，比“全网热搜”更容易转化成第一位客户和第一段履历。', level: '核心' },
+    { key: '访谈优先', title: '深度访谈是矿脉，不是结论', body: '播客、采访和小红书/抖音复盘用来发现路径；必须再用官方入口、平台规则、第三方研究和反方案例交叉验证。', level: '方法' },
+    { key: '反方优先', title: '每个搞钱机会都要写停止条件', body: '若7天内没有真实咨询、没有可交付样品、没有愿意付钱的人，立刻降级或停止，不把沉没成本包装成坚持。', level: '治理' }
+  ],
+  deploymentDiagnosis: [
+    { symptom: 'GitHub页面仍显示17小时前', cause: 'Actions没有绿色对勾，或Pages仍是main/root', fix: 'Settings → Pages → Source选择 GitHub Actions；Actions里手动Run workflow一次。' },
+    { symptom: '仓库文件变了但网站没变', cause: '浏览器或CDN缓存旧文件', fix: '打开网站后按 Ctrl+F5；也可以在URL后加 ?v=7 测试。' },
+    { symptom: '定时任务没有准点跑', cause: 'GitHub schedule不是秒级定时器，高峰期可能延迟或被丢弃', fix: '工作流已改为非整点；需要立刻更新时手动 Run workflow。' },
+    { symptom: 'Actions看不到工作流', cause: '.github/workflows 没上传成功，或上传时外面套了文件夹', fix: '仓库首页必须直接能看到 index.html、assets、.github。' }
+  ],
+  cityGoldRadar: [
+    {
+      city: '成都', score: 88, persona: '游戏/文创/视频/本地生活型大学生',
+      thesis: '成都适合把AI视频、游戏内容、文创IP和本地商家样片做成低成本服务；线下沙龙和AI+文创活动可作为第一批人脉入口。',
+      opportunities: ['AI短视频样片', '游戏宣发素材', '文创IP视觉', '本地商家探店脚本', 'AI简历/作品集辅导'],
+      resources: ['蓉智沙龙·AI与数字文创', '成都科创生态岛/天府新区OPC生态', '高校社团/游戏文创圈', '小红书同城活动线索'],
+      firstCustomer: '咖啡店、剧本杀、摄影工作室、社团活动主办方、小型游戏团队',
+      sevenDays: ['做3条本地商家AI视频样片', '在小红书发“成都AI视频样片挑战”', '私信20个本地商家/社团', '线下参加1场AI或文创沙龙'],
+      verification: { official: 2, media: 2, interview: 1, social: 2, risk: 1 },
+      sourceNote: '有成都AI文创沙龙、天府新区OPC生态等公开报道支撑；具体活动时间必须每周核验。',
+      links: [
+        { label: '成都AI文创沙龙报道', url: 'https://finance.sina.com.cn/stock/t/2026-05-29/doc-inhzqtzc9325249.shtml' },
+        { label: '天府新区OPC生态大会报道', url: 'https://sc.people.com.cn/BIG5/n2/2026/0417/c345167-41555803.html' }
+      ]
+    },
+    {
+      city: '杭州', score: 92, persona: 'AI产品/电商/创业比赛型大学生',
+      thesis: '杭州的优势在AI创业者大会、未来科技城、电商和开发者生态；适合把AI小工具、电商内容和创作者服务打成产品化案例。',
+      opportunities: ['AI电商素材包', 'GEO内容诊断', 'AI小程序MVP', '创作者数据分析', '产品路演PPT/BP'],
+      resources: ['未来科技城AI活动', 'AdventureX青年黑客松', 'AI创业者大会/路演', '电商与内容平台生态'],
+      firstCustomer: '电商卖家、校园创业团队、内容博主、AI创业路演团队',
+      sevenDays: ['复刻1个AI电商素材流程', '给5个商家做免费诊断换反馈', '报名/旁听1场AI活动', '产出1页可公开案例'],
+      verification: { official: 2, media: 3, interview: 1, social: 2, risk: 1 },
+      sourceNote: '杭州AI创业者大会与AdventureX等资源可核验；具体沙龙报名入口需每周更新。',
+      links: [
+        { label: '杭州AI创业者大会报道', url: 'https://finance.sina.com.cn/wm/2026-06-15/doc-inicnckx8337372.shtml' },
+        { label: 'AdventureX官网', url: 'https://adventure-x.org/' }
+      ]
+    },
+    {
+      city: '长沙', score: 82, persona: '短视频/传媒/消费品牌/同城社交型大学生',
+      thesis: '长沙适合把AI短视频、探店、直播切片、线下活动组织和搭子经济结合；重点是本地消费品牌和高校传媒能力。',
+      opportunities: ['AI探店脚本', '直播切片与封面', '同城搭子活动页', '小红书同城种草', '本地品牌内容日历'],
+      resources: ['高校传媒资源', '本地消费品牌', '同城活动/社交需求', '小红书与抖音本地内容'],
+      firstCustomer: '餐饮品牌、密室/剧本杀、校园社团、线下活动主办方',
+      sevenDays: ['找10个本地商家做内容诊断', '做1套AI探店模板', '发3篇同城案例笔记', '用问卷验证搭子活动需求'],
+      verification: { official: 0, media: 1, interview: 1, social: 3, risk: 2 },
+      sourceNote: '长沙线索以本地内容和社交平台为主，需加强官方活动/园区/高校来源核验。',
+      links: [
+        { label: '湖南省政府长沙概况', url: 'https://www.hunan.gov.cn/hnszf/jxxx/szmp/zss/szmp.html' }
+      ]
+    },
+    {
+      city: '深圳', score: 91, persona: '硬件/跨境/AI Agent/工业服务型大学生',
+      thesis: '深圳适合AI硬件、跨境电商、企业自动化和一人公司；可从企业官网、工信专题、开发者活动中寻找一手资源。',
+      opportunities: ['AI跨境商品图', '企业Agent流程图', '硬件说明书多语言', '工业短视频样片', 'AI客服知识库'],
+      resources: ['深圳AI赋能新型工业化专题', '龙岗AI-R沙龙', '跨境电商与硬件供应链', '新一代AI创业大赛'],
+      firstCustomer: '跨境卖家、硬件小厂、工业园区企业、创业团队',
+      sevenDays: ['选择一个硬件品类', '做中英双语商品页样例', '联系20家跨境店/工厂', '记录回复率与付费意向'],
+      verification: { official: 3, media: 2, interview: 1, social: 1, risk: 1 },
+      sourceNote: '深圳工信与龙岗政府信息公开平台有AI专题和沙龙线索，适合S级/A级核验。',
+      links: [
+        { label: '深圳AI赋能新型工业化专题', url: 'https://gxj.sz.gov.cn/ztfw/ztzl/szaifnxxgyhzt/index.html' },
+        { label: '龙岗AI-R沙龙信息公开', url: 'https://www.lg.gov.cn/lgjqrs/gkmlpt/index' }
+      ]
+    },
+    {
+      city: '上海', score: 89, persona: '品牌/商业化/金融/国际化内容型大学生',
+      thesis: '上海更适合品牌内容、商业化研究、AI营销、金融科技与国际化服务；适合做高质量案例、报告和B端服务。',
+      opportunities: ['品牌AI内容样片', 'AI营销趋势报告', '金融科普可视化', '国际化PPT/路演', 'GEO/SEO诊断'],
+      resources: ['品牌与商业化生态', '高校与创业活动', '跨国公司实习', '小红书商业化趋势'],
+      firstCustomer: '品牌方、咨询团队、金融/消费类实习团队、跨境服务商',
+      sevenDays: ['选1个品牌做AI内容审计', '输出一页诊断报告', '在小红书/公众号发布案例', '投递10个相关实习'],
+      verification: { official: 1, media: 3, interview: 2, social: 1, risk: 1 },
+      sourceNote: '上海方向需要继续补充具体沙龙与公司官网入口，当前以平台趋势与行业分析为主。',
+      links: [
+        { label: '小红书蒲公英官方平台', url: 'https://pgy.xiaohongshu.com/' }
+      ]
+    },
+    {
+      city: '北京', score: 90, persona: '大模型/研究/内容知识/IP型大学生',
+      thesis: '北京适合研究型、内容型和知识服务型机会：AI工具测评、政策解读、模型应用、创业访谈和高校资源链接。',
+      opportunities: ['AI工具测评号', '政策/比赛情报整理', '大模型应用Demo', '播客访谈摘要', '学术项目作品集'],
+      resources: ['高校实验室', 'AI创业者/媒体密度', '政策与平台官方入口', '播客与知识型内容'],
+      firstCustomer: '学生团队、研究项目、媒体号、AI工具创业者、比赛团队',
+      sevenDays: ['做一个AI工具测评模板', '采访2个校园团队', '整理10条官方AI机会', '发布城市AI周报'],
+      verification: { official: 2, media: 3, interview: 3, social: 1, risk: 1 },
+      sourceNote: '北京资源多但竞争强，必须靠垂直定位和原创分析突围。',
+      links: [
+        { label: 'GitHub AI官方博客', url: 'https://github.blog/ai-and-ml/' }
+      ]
+    }
+  ],
+  socialEconomy: [
+    {
+      title: '搭子经济 × AI活动页服务', platform: '小红书/同城活动/轻社交App', level: 'C→B待核验',
+      signal: '年轻人用兴趣、工作、线下活动寻找“搭子”的需求持续出现；AI可以降低活动海报、文案、报名页、分组和复盘成本。',
+      product: '给社团/活动主办方做“AI活动包”：海报、报名问卷、微信群话术、活动流程、复盘长图。',
+      firstMove: '选一个城市和兴趣，如成都电影搭子/长沙探店搭子；做3套活动页样板，找10个主办方测试。',
+      risk: '线下社交涉及安全、隐私、诈骗和纠纷；平台规则与活动资质必须由主办方确认。本站不背书任何社群或活动。',
+      sources: [
+        { label: '复旦2025年轻人生活方式报告', url: 'https://fddi.fudan.edu.cn/54/c7/c19047a742599/page.htm' },
+        { label: '搭子App Store页面', url: 'https://apps.apple.com/cn/app/%E6%90%AD%E5%AD%90-%E8%BF%91%E8%B7%9D%E7%A6%BB%E6%89%BE%E6%90%AD%E5%AD%90/id6449823039' }
+      ]
+    },
+    {
+      title: '小红书同城种草 × 本地商家AI内容包', platform: '小红书蒲公英/创作服务平台', level: 'S+B',
+      signal: '小红书有官方商业化入口，媒体持续讨论种草效果化；本地商家需要低成本内容，但学生必须避免虚假种草和未标广告。',
+      product: '给本地商家做“7天种草测试包”：账号诊断、3篇笔记、封面模板、评论区FAQ、复盘表。',
+      firstMove: '用自己城市的3个商家做公益样板，拿到反馈后再低价收费；优先服务咖啡、摄影、轻食、剧本杀、课程工作室。',
+      risk: '商业合作、广告标识、版权素材、医疗/金融/教育等敏感品类必须遵守平台规则。',
+      sources: [
+        { label: '小红书蒲公英', url: 'https://pgy.xiaohongshu.com/' },
+        { label: '小红书创作服务平台', url: 'https://creator.xiaohongshu.com/' }
+      ]
+    },
+    {
+      title: '抖音AI短视频 × 星图微商单准备', platform: '抖音/巨量星图', level: 'S+B',
+      signal: '巨量星图是抖音营销生态服务平台，AI降低脚本、剪辑和封面成本；但真实商单需要账号质量、垂类和履约。',
+      product: '“账号冷启动素材包”：10条脚本、3套封面、剪辑模板、选题日历、报价页。',
+      firstMove: '不先承诺接商单，先帮同学/小店做样片，记录播放、完播、咨询和转化。',
+      risk: '不要搬运，不伪造数据，不承诺品牌合作；星图规则、结算和准入门槛以官方页面为准。',
+      sources: [
+        { label: '巨量星图课程', url: 'https://school.oceanengine.com/premium/course/7086353451671617566/intro' },
+        { label: '巨量引擎星图说明', url: 'https://www.oceanengine.com/blog/xingtu-daren-jishu.html' }
+      ]
+    }
+  ],
+  interviewMining: [
+    { platform: '小宇宙', title: '搞钱女孩：GEO/AI搜索优化', value: '适合作为B端获客服务方向：帮企业/博主提高AI搜索可见度。', verify: '用官网、客户访谈、搜索结果和案例页交叉验证，不把单期节目当结果承诺。', level: 'B' },
+    { platform: '播客/访谈', title: '小红书虚拟电商/资料店案例', value: '适合拆成虚拟资料、模板、自动发货、合规原创内容四个模块。', verify: '收入需拆营业额、利润、投流、售后、平台规则和版权来源。', level: 'B/C' },
+    { platform: '晚点聊/媒体访谈', title: 'AI视频产品增长访谈', value: '适合反推AI视频工具的真实用户、场景和商业路径。', verify: '更适合产品/创业理解，不直接等于个人副业。', level: 'A/B' },
+    { platform: '一手采访', title: '城市创业沙龙参与者访谈', value: '把“我参加了什么活动”转成“我拿到了什么客户/队友/作品集”。', verify: '需要活动官网/主办方、嘉宾身份、现场记录和后续结果。', level: 'B' }
+  ],
+  visualizationSpec: {
+    cityMetrics: ['官方资源', '访谈密度', '本地客户', '社交线索', '执行友好度'],
+    tracks: [
+      { name: '小红书同城种草', heat: 92, trust: 72, cityFit: '成都/长沙/上海/杭州', caution: '广告标识与版权' },
+      { name: '抖音AI短视频服务', heat: 88, trust: 70, cityFit: '长沙/成都/深圳/广州', caution: '搬运与虚假数据' },
+      { name: 'GEO/AI搜索优化', heat: 84, trust: 76, cityFit: '北京/上海/杭州/深圳', caution: '效果证明难' },
+      { name: 'AI活动页/搭子经济', heat: 79, trust: 58, cityFit: '成都/长沙/杭州', caution: '线下安全与隐私' },
+      { name: 'AI PPT/BP视觉重构', heat: 82, trust: 78, cityFit: '全国高校/创业城市', caution: '交付标准与版权素材' }
+    ]
+  },
+  disclaimers: [
+    '本站不推荐、不背书任何收费社群；只把公开社群、播客、访谈作为信息线索。',
+    '小红书、抖音、播客、社群案例默认不是官方事实；必须继续找官方入口、平台规则、独立媒体或反方研究。',
+    '任何收入案例都不能代表普遍结果；必须拆分营业额、净利润、时间成本、获客成本和失败样本。',
+    '线下搭子、创业沙龙和社交活动涉及人身安全、隐私和合规风险，参与者自行判断并以官方/主办方信息为准。'
+  ]
+};

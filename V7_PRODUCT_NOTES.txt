@@ -1,0 +1,43 @@
+(() => {
+  const data = window.AI_FORME_V10;
+  if (!data) return;
+  const $ = (s, root=document) => root.querySelector(s);
+  const esc = (v='') => String(v).replace(/[&<>'"]/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;',"'":'&#039;','"':'&quot;'}[c]));
+  function section(id, title, desc, body){
+    return `<section class="section container v10-forme" id="${id}"><div class="section-head"><div><h2>${esc(title)}</h2><p>${esc(desc)}</p></div></div>${body}</section>`;
+  }
+  function renderBrand(){
+    return section('ai-forme-brand','品牌升级：AI For Me','为我而生的AI时代。不是劣质搞钱站，而是普通人的AI财富机会提纯器。', `
+      <div class="v10-brand-grid">
+        <article class="v10-brand-card dark"><div class="v10-orbit"></div><span class="v10-label">${esc(data.brand.product)}</span><h2>${esc(data.brand.display)}<span>${esc(data.brand.chinese)}</span></h2><p>${esc(data.brand.slogan)}</p><div class="v10-badge-line"><span>普惠免费</span><span>低价增强</span><span>信源分级</span><span>神农扫描</span></div></article>
+        <article class="v10-brand-card"><span class="v10-label">品牌精神</span><h2>免费好用，<span>认真赚钱。</span></h2><p>${esc(data.brand.manifesto)}</p><div class="v10-manifesto"><div>不是为了逼会员而阉割免费体验；是把高级算力、人工核验和个人报告留给真正执行的人。</div><div>站点的价值不是制造焦虑，而是让普通人知道机会在哪、真假如何判断、第一步怎么做。</div></div></article>
+      </div>`);
+  }
+  function renderFreemium(){
+    return section('forme-freemium','商业模式：90% 免费，10% 低价增强','普通用户也要用得舒服；付费层只服务真正要落地的人。', `
+      <div class="v10-member-panel">
+        <article class="v10-member-copy"><span class="v10-label">${esc(data.freemium.principle)}</span><h3>${esc(data.membershipCopy.title)}</h3><p>${esc(data.membershipCopy.body)}</p><div class="v10-ethics">${data.freemium.ethics.map(x=>`<span>✓ ${esc(x)}</span>`).join('')}</div><a class="v10-cta" href="#ai-search">${esc(data.membershipCopy.cta)}</a></article>
+        <article class="v10-brand-card"><span class="v10-label">免费层</span><h2>基础机会，<span>永远开放。</span></h2><p>免费用户能看来源、看风险、看城市机会、看深访总结、做基础扫描。</p><div class="v10-free-list">${data.freemium.free.map(x=>`<span>${esc(x)}</span>`).join('')}</div></article>
+      </div>
+      <div class="v10-pricing-grid" style="margin-top:14px">${data.freemium.paid.map(p=>`<article class="v10-pricing-card"><span class="v10-price">${esc(p.price)}</span><h3>${esc(p.name)}</h3><p>${esc(p.value)}</p></article>`).join('')}</div>`);
+  }
+  function renderLearning(){
+    return section('ai-learning-map','AI 学习地图','让小白不只看机会，也知道该补什么能力；学习入口只做导航，不包装成付费焦虑。', `
+      <p class="v10-section-note">学习板块定位为“机会执行前的补给站”：不会抢淘金地图主线，只帮助用户补足工具、提示词、开发、Agent和作品集能力。</p>
+      <div class="v10-learning-grid" style="margin-top:14px">${data.learning.map(item=>`<article class="v10-learning-card"><span class="v10-level">${esc(item.level)}</span><h3>${esc(item.title)}</h3><p><b>${esc(item.resource)}</b>：${esc(item.why)}</p><p style="margin-top:8px">行动：${esc(item.action)}</p><a href="${esc(item.url)}" target="_blank" rel="noopener">打开学习资源 ↗</a></article>`).join('')}</div>`);
+  }
+  function renderFlywheel(){
+    return section('forme-flywheel','增长飞轮：赚到钱是为了继续普惠','正常盈利不丢人。关键是收入反哺信息质量、人工核验和传播，而不是收割焦虑。', `<div class="v10-flywheel">${data.growthFlywheel.map((x,i)=>`<article class="v10-fly-card"><span class="v10-level">0${i+1}</span><h3>${esc(x.step)}</h3><p>${esc(x.desc)}</p></article>`).join('')}</div>`);
+  }
+  function mount(){
+    const stats = $('#stats');
+    if (!stats) return;
+    stats.insertAdjacentHTML('afterend', renderBrand()+renderFreemium()+renderLearning()+renderFlywheel());
+    const brand = $('.brand strong'); if (brand) brand.textContent = 'AI For Me';
+    const small = $('.brand small'); if (small) small.textContent = 'AI时代财富机会提纯器';
+    const heroH1 = $('.hero-copy h1'); if (heroH1) heroH1.innerHTML = `${esc(data.homepageCopy.h1)}<span>让机会真正与你有关。</span>`;
+    const heroP = $('.hero-copy p'); if (heroP) heroP.textContent = data.homepageCopy.sub + ' 聚合官方入口、平台商业化、深度访谈、城市资源和神农证据扫描。';
+    document.title = 'AI For Me｜AI时代财富机会提纯器';
+  }
+  if (document.readyState === 'loading') document.addEventListener('DOMContentLoaded', mount); else mount();
+})();

@@ -1,0 +1,99 @@
+window.AI_FIRSTMOVE_V8 = {
+  version: 'V8 · AI淘金图谱 × 神农证据引擎',
+  generatedAt: '2026-06-19T06:58:00+08:00',
+  naming: {
+    brand: 'AI先机',
+    product: 'AI淘金图谱',
+    english: 'AI To Money Map',
+    title: 'AI先机｜AI淘金图谱',
+    decision: '保留“AI先机”做可信品牌，用“AI淘金图谱 / AI To Money Map”做产品定位；既有搞钱方向，也不滑向暴富承诺。'
+  },
+  shennong: {
+    name: '神农·需求证据引擎',
+    positioning: '不是点子生成器，而是市场取证员、需求人类学家、反方投资委员会和快速实验设计师。',
+    promise: '用最小成本尽快发现真实需求，更重要的是尽快杀死伪需求。',
+    gates: [
+      '无来源，不下结论：每个核心判断必须保留URL、平台、发布时间、采集时间和证据类型。',
+      '评论“想要/求教程”不是付款证明，只能算兴趣信号。',
+      '爆款内容不等于产品需求，必须检查替代方案、付费行为和复购可能。',
+      '每个机会都要主动找反证：差评、退款、封号、停更、成本失控。',
+      '先做内容、人工服务、模板、落地页或Demo，不要一上来做复杂产品。'
+    ]
+  },
+  moneyMap: [
+    {
+      id: 'xhs-local-ai-content', title: '小红书同城AI内容包', platform: '小红书 / 线下商家', level: 'B→S', cityFit: ['成都','长沙','上海','杭州'], heat: 90,
+      payer: '本地咖啡店、摄影店、探店店主、活动主办方、个人工作室',
+      deliverable: '10张AI海报 + 3条探店脚本 + 1份小红书发布日历 + 商家基础诊断',
+      evidenceStack: ['小红书蒲公英/合作中心是官方商业化入口', '同城商家长期需要种草内容', 'KOC劳动研究提示内容创作存在低估与不稳定风险'],
+      firstMove: '先做一个“本地商家AI内容体检”免费样板，找10家店换反馈，7天只验证是否有人愿意继续聊付费。',
+      killRule: '7天内没有3个有效商家愿意看样板，或无法说明投放/种草结果如何衡量，暂停。',
+      sourceUrls: ['https://pgy.xiaohongshu.com/faq','https://arxiv.org/abs/2409.08360']
+    },
+    {
+      id: 'douyin-ai-micro-commercial', title: '抖音AI短视频微商单准备', platform: '抖音 / 巨量星图', level: 'B→S', cityFit: ['长沙','成都','广州','深圳'], heat: 86,
+      payer: '本地品牌、小商家、短视频达人、MCN低成本内容团队',
+      deliverable: '脚本拆解 + AI封面 + 口播提纲 + 3条短视频样片 + 星图入驻与商单素材清单',
+      evidenceStack: ['巨量星图是抖音营销生态与达人变现平台', '达人入驻/任务规则需要走官方入口', '短视频内容可用小样本测试收藏、私信和咨询'],
+      firstMove: '做3个垂直行业样片：餐饮、教培/学习、摄影/美业；不要先承诺播放量，只承诺交付物。',
+      killRule: '连续3条样片没有有效私信/咨询，或客户只要免费不愿意付小额诊断费，降级为作品集练习。',
+      sourceUrls: ['https://www.xingtu.cn/','https://www.xingtu.cn/help-center/author/109194']
+    },
+    {
+      id: 'geo-service-studio', title: 'GEO / AI搜索可见度诊断', platform: '播客 / 官网 / SEO工具', level: 'B', cityFit: ['上海','杭州','北京','深圳'], heat: 84,
+      payer: 'AI工具站、知识付费产品、独立开发者、B端服务公司',
+      deliverable: '品牌在主流AI问答里的可见度截图 + 竞品被提及原因 + 内容结构建议 + 7天内容实验',
+      evidenceStack: ['GEO在播客和AI营销讨论中成为新线索', '但GEO效果衡量和归因仍不稳定', '适合先做人工诊断而不是SaaS'],
+      firstMove: '选3个小品牌做免费诊断，要求对方提供官网/产品页，输出1页报告换公开反馈。',
+      killRule: '目标客户不愿意提供官网、不愿意复查结果、不愿意为诊断付费时，不做工具化。',
+      sourceUrls: ['https://podcasts.apple.com/hk/podcast/%E6%90%9E%E9%92%B1%E5%A5%B3%E5%AD%A9/id1676099257']
+    },
+    {
+      id: 'offline-ai-salon-ops', title: 'AI沙龙/搭子活动页服务', platform: '粗门 / 小程序 / 线下沙龙', level: 'C→B', cityFit: ['成都','杭州','长沙','深圳'], heat: 80,
+      payer: '活动主理人、AI学习社群、高校社团、创业沙龙组织者',
+      deliverable: '活动主题策划 + 报名页文案 + 嘉宾海报 + 群公告 + 复盘长图',
+      evidenceStack: ['粗门定位为兴趣活动与线下活动社区', '各城市存在AI沙龙/创业交流活动', '线下组织涉及安全、退款和信任边界'],
+      firstMove: '不要自己办大活动，先服务1个已有活动主理人，帮他把AI经验分享活动包装成可报名页面。',
+      killRule: '活动没有明确主办方、场地、退款和安全机制时，不接；涉及金融/医疗/高风险承诺时不做。',
+      sourceUrls: ['https://www.cumen.fun/about','https://sj.qq.com/appdetail/tech.xiaoxiang.emily']
+    },
+    {
+      id: 'ai-ppt-bp-refactor', title: 'AI PPT / BP 视觉重构接单', platform: '高校创业 / 挑战杯 / 路演', level: 'B', cityFit: ['杭州','北京','上海','成都','武汉'], heat: 88,
+      payer: '竞赛团队、创业团队、课程展示团队、学生社团',
+      deliverable: '1页视觉诊断 + 3页重构样张 + 演讲逻辑梳理 + 可编辑PPT源文件',
+      evidenceStack: ['高校竞赛和创业路演长期需要表达材料', '真实付款来自时间紧迫和审美差距', '风险在于定制化交付过重'],
+      firstMove: '用3个虚拟案例做前后对比图，发小红书/朋友圈/社团群，测试是否有团队愿意发原稿咨询。',
+      killRule: '如果客户只愿意9.9元买模板、不愿意为定制修改付费，改做模板包而不是接单。',
+      sourceUrls: []
+    },
+    {
+      id: 'ai-comic-ip-commerce', title: 'AI漫画/IP种草带货实验', platform: '小红书 / 抖音 / 电商', level: 'C→B', cityFit: ['长沙','广州','杭州','成都'], heat: 82,
+      payer: '个人IP、店铺、虚拟资料卖家、实体小商品商家',
+      deliverable: '角色设定 + 5篇漫画种草脚本 + 10张图文模板 + 合规带货链路建议',
+      evidenceStack: ['社交平台对漫画/情绪/IP内容有传播优势', '带货和虚拟商品需验证店铺规则、素材版权和转化', '单个博主成功不能外推'],
+      firstMove: '只选一个低风险品类做7天内容测试，观察收藏、评论具体问题、私信和商品点击。',
+      killRule: '素材版权不清、商品资质不清、评论只有“好看”没有询价/求链接时，停止商业化。',
+      sourceUrls: ['https://pgy.xiaohongshu.com/faq']
+    }
+  ],
+  salonsAndCommunities: [
+    { city: '成都', type: '线下沙龙', title: 'AI与数字文创/OPC方向', angle: '适合寻找AI视频、文创、游戏和一人公司线索', risk: '活动时间变化快，必须以主办方公开页面为准。', level: 'A/B' },
+    { city: '杭州', type: '创业大会/黑客松', title: 'AI创业者大会、AdventureX、AI+OPC', angle: '适合找队友、路演、AI产品和创业样板', risk: '不要把大会曝光等同于个人可复制收入。', level: 'S/A' },
+    { city: '长沙', type: '内容产业沙龙', title: 'AI漫剧、短视频、同城消费品牌', angle: '适合传媒/设计/视频类大学生做内容样板', risk: '以C端内容热度为线索，需要找B端付款人。', level: 'A/B' },
+    { city: '深圳', type: '产业/开发者活动', title: 'AI+工业、跨境、Agent、硬件', angle: '适合AI自动化、跨境商品内容、硬件资料本地化', risk: 'B端交付要求更高，先从小诊断开始。', level: 'S/A' },
+    { city: '线上', type: '社群/课程/社区', title: '生财有术、AI破局、树成林等公开影响力社群', angle: '可作为信息场、案例场、连接场，不作为本站背书对象', risk: '付费前自查退款、交付、历史口碑和个人需求；本站不保证效果。', level: 'B/C' },
+    { city: '多城', type: '兴趣活动平台', title: '粗门/同城活动/搭子经济', angle: '适合AI经验分享、黑客松组队、线下学习局活动包装', risk: '线下安全、场地、退款、隐私和组织责任必须提前明确。', level: 'C→B' }
+  ],
+  interviews: [
+    { show: '搞钱女孩', topic: 'GEO / AI搜索优化', value: '发现“AI搜索可见度诊断”服务线索', verification: '用3个品牌做AI问答可见度截图，验证是否有人愿付诊断费。', level: 'B' },
+    { show: '晚点聊 / AI产品访谈', topic: 'AI视频产品增长', value: '理解AI视频产品的真实增长、留存和创作门槛', verification: '不要直接做平台，先做垂直行业视频样片服务。', level: 'B' },
+    { show: '满地找钱/小红书虚拟电商访谈', topic: '虚拟资料与内容电商', value: '适合拆成模板、资料、自动交付和原创内容策略', verification: '检查平台规则、店铺资质、退款和版权。', level: 'B' },
+    { show: '城市创业沙龙公开复盘', topic: 'AI+OPC/一人公司', value: '发现城市里的政策、空间、队友和项目资源', verification: '以报名页、主办方和参会者复盘交叉验证。', level: 'A/B' }
+  ],
+  shennongModes: [
+    { name: '5分钟雷达', samples: '3个查询簇 / 10个样本 / 3个竞品', decision: '只能判断继续查或立即停' },
+    { name: '15分钟初筛', samples: '20-30个内容样本 / 50条评论 / 5个竞品', decision: '形成候选机会与下一实验' },
+    { name: '30分钟证据扫描', samples: '≥3类来源 / 100-200条评论 / 8-10个竞品', decision: '决定是否做无代码验证' },
+    { name: '120分钟尽调', samples: '100-300个内容样本 / 300-500条评论 / 15-20个竞品', decision: '决定杀死、预售或做Demo' }
+  ]
+};

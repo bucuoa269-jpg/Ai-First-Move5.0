@@ -1,0 +1,5 @@
+blank_issues_enabled: true
+contact_links:
+  - name: 纠错与下架请求
+    url: https://github.com/
+    about: 请在仓库中新建 Issue，并提供需要纠正的页面与证据。

@@ -1,0 +1,46 @@
+window.AI_FORME_V10 = {
+  version: 'V10 · AI For Me 品牌与普惠会员升级',
+  generatedAt: '2026-06-19T07:12:00+08:00',
+  brand: {
+    name: 'AI For Me',
+    display: 'AI FOR ME',
+    chinese: '为我而生的AI时代',
+    slogan: '让普通人也能抓住自己的 AI 时代。',
+    product: 'AI时代财富机会提纯器',
+    manifesto: '免费用户也应该用得很舒服。会员不是人为制造限制，而是给真正要执行落地的人更深的报告、路线和人工核验。'
+  },
+  freemium: {
+    principle: '90% 普惠免费，10% 低价增强',
+    free: [
+      '今日财富机会提纯', '基础信源等级与来源链接', '城市资源地图', '深访AI总结', '基础神农机会扫描', '7天行动建议', '反方风险提示', 'AI学习入口'
+    ],
+    paid: [
+      { name:'高级周报', price:'9.9/月 或 29.9/季起测', value:'每周提纯 20 条更高质量机会，附城市/平台/信源/行动清单。' },
+      { name:'个人机会报告', price:'19.9/次起测', value:'根据城市、技能、预算、时间生成 7/30 天路线，不承诺收益。' },
+      { name:'AI Native 财富进化面板', price:'99/年起测', value:'长期保存个人画像、复盘记录、学习路线和机会订阅。' }
+    ],
+    ethics: ['不隐藏官方入口', '不为了会员故意降低免费体验', '不制造暴富焦虑', '付费只用于算力、人工核验、内容维护和推广']
+  },
+  learning: [
+    { title:'AI入门知识库', level:'新手', resource:'WaytoAGI', url:'https://www.waytoagi.com/', why:'适合把AI工具、教程、案例作为学习入口，但仍需自己辨别更新时间和适用场景。', action:'每天选1个工具，做1个真实小作品。' },
+    { title:'学生开发者资源', level:'学生/开发', resource:'GitHub Student Developer Pack', url:'https://education.github.com/pack', why:'适合学生拿开发、云服务、域名、AI工具等资源，降低试错成本。', action:'验证学生身份，整理自己可用的工具额度。' },
+    { title:'模型与应用实践', level:'进阶', resource:'Hugging Face Learn', url:'https://huggingface.co/learn', why:'适合从AI工具使用进入模型、数据集和应用部署实践。', action:'照着教程跑一个最小Demo，再写成作品集。' },
+    { title:'AI Agent与自动化', level:'进阶/服务', resource:'Dify Docs', url:'https://docs.dify.ai/', why:'适合把AI能力转成企业知识库、客服、工作流和内部提效服务。', action:'给一个本地商家或社团做一个FAQ机器人原型。' },
+    { title:'提示词与产品思维', level:'全阶段', resource:'OpenAI Prompt Engineering Guide', url:'https://platform.openai.com/docs/guides/prompt-engineering', why:'适合学习怎样把问题拆成角色、上下文、约束、验证和输出格式。', action:'把一个搞钱想法写成可验证的神农市场命题。' }
+  ],
+  membershipCopy: {
+    title:'会员不是门槛，而是火箭燃料',
+    body:'AI For Me 的免费层要足够好：普通人能看来源、看风险、看城市机会、做基础扫描。付费层只服务少数真正要落地执行的人，用来覆盖算力、人工核验、长期维护和传播成本。',
+    cta:'先免费用，再决定是否支持长期维护'
+  },
+  growthFlywheel: [
+    { step:'免费提纯', desc:'让更多人低成本看到高质量机会。' },
+    { step:'真实执行', desc:'少数用户用报告和面板真正落地。' },
+    { step:'收入反哺', desc:'付费用于人工核验、内容采集、投放和城市资源拓展。' },
+    { step:'更高质量', desc:'更好的信源、更多深访、更多城市资源，形成正循环。' }
+  ],
+  homepageCopy: {
+    h1:'AI For Me：为我而生的AI时代',
+    sub:'解决 AI 时代财富机会信息焦虑。让普通人知道机会在哪、真假怎么判断、自己怎么开始。'
+  }
+};

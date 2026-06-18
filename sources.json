@@ -1,0 +1,66 @@
+(() => {
+  const data = window.AI_FIRSTMOVE_V9;
+  if (!data) return;
+  const $ = (s, root=document) => root.querySelector(s);
+  const esc = (v='') => String(v).replace(/[&<>'"]/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;',"'":'&#039;','"':'&quot;'}[c]));
+  function section(id, title, desc, body){
+    return `<section class="section container v9-wealth" id="${id}"><div class="section-head"><div><h2>${title}</h2><p>${desc}</p></div></div>${body}</section>`;
+  }
+  function renderHero(){
+    return section('wealth-purifier','AI时代财富机会提纯器','不是收集更多信息，而是把信息提纯成证据、判断和行动。', `
+      <div class="v9-hero-strip">
+        <article class="v9-panel blue">
+          <span class="v9-kicker">${esc(data.naming.emotionalLine)}</span>
+          <h2>${esc(data.naming.oneLine)}</h2>
+          <p>主品牌保留「${esc(data.naming.brand)}」，产品定位升级为「${esc(data.naming.product)}」。网站解决的是普通人在AI时代的财富机会信息焦虑：不知道哪些是真的、哪些适合自己、第一步怎么做、什么时候该停。</p>
+          <div class="v9-principles">${data.principles.map(p=>`<article><strong>${esc(p.title)}</strong><small>${esc(p.desc)}</small></article>`).join('')}</div>
+        </article>
+        <article class="v9-panel">
+          <span class="v9-kicker">${esc(data.naming.panel)}</span>
+          <h2>信息 → 证据 → 判断 → 行动 → 复盘</h2>
+          <p>免费为主，低价增值。基础机会、信源等级、城市资源、深访AI总结和7天行动建议都应免费；高级报告只覆盖算力与人工核验成本。</p>
+          <div class="v9-dashboard">${data.dashboard.map(s=>`<div class="v9-stat"><b>${s.value}</b><span>${esc(s.label)}</span><small>${esc(s.note)}</small></div>`).join('')}</div>
+        </article>
+      </div>`);
+  }
+  function signalCard(x){
+    return `<article class="v9-signal">
+      <div class="v9-signal-head"><span class="v9-pill">${esc(x.type)} · ${esc(x.city)}</span><span class="v9-level ${esc(x.level)}">${esc(x.level)}级</span></div>
+      <h3>${esc(x.title)}</h3>
+      <p>${esc(x.opportunity)}</p>
+      <div class="v9-ai-summary"><b>AI提纯总结</b><p>${esc(x.aiSummary)}</p></div>
+      <ul class="v9-facts">${(x.facts||[]).map(f=>`<li>• ${esc(f)}</li>`).join('')}</ul>
+      <div class="v9-meta-row"><span class="v9-pill">平台：${esc(x.platform)}</span><span class="v9-pill">发布时间：${esc(x.publishedAt)}</span><span class="v9-pill">窗口：${esc(x.timeWindow)}</span></div>
+      <div class="v9-actions"><a href="${esc(x.url)}" target="_blank" rel="noopener">打开来源 ↗</a><span class="v9-verify">核验：${esc((x.verify||[])[0]||'查看原始来源')}</span></div>
+    </article>`;
+  }
+  function renderSignals(){
+    const cards = data.freshSignals.map(signalCard).join('');
+    return section('fresh-wealth-signals','今日财富信号提纯','每条信息都带可点击来源、发布时间、采集时间、信源等级、AI总结、反方风险和下一步核验。', `<div class="v9-signal-grid">${cards}</div>`);
+  }
+  function renderCharts(){
+    const cityBars = data.cityMatrix.map(c=>`<div class="v9-bar-row"><b>${esc(c.city)}</b><div><div class="v9-bar-track"><div class="v9-bar-fill" style="width:${c.score}%"></div></div><div class="v9-lanes">${c.lanes.map(l=>`<span>${esc(l)}</span>`).join('')}</div></div><strong>${c.score}</strong></div>`).join('');
+    const signals = [
+      ['官方/平台入口', 41], ['深访/播客矿脉', 18], ['城市资源线索', 24], ['小红书/抖音线索', 16], ['反方研究/风险', 9]
+    ].map(([name,val])=>`<div class="v9-bar-row"><b>${esc(name)}</b><div class="v9-bar-track"><div class="v9-bar-fill" style="width:${Math.min(100, val*2)}%"></div></div><strong>${val}</strong></div>`).join('');
+    return section('visual-dashboard','城市与信源可视化','让普通人一眼看到：哪个城市有什么资源，哪些来源更可信，哪些只是待核验线索。', `<div class="v9-chart-row"><article class="v9-chart"><h3>城市机会热度</h3><div class="v9-bars">${cityBars}</div></article><article class="v9-chart"><h3>信源结构</h3><div class="v9-bars">${signals}</div></article></div>`);
+  }
+  function renderCityLedger(){
+    return section('city-wealth-map','城市财富资源地图','每座城市都要从官方/园区/高校、沙龙/社群/活动、本地客户和第一步行动四个维度补齐。', `<div class="v9-signal-grid">${data.cityMatrix.map(c=>`<article class="v9-signal"><div class="v9-signal-head"><span class="v9-pill">城市雷达</span><span class="v9-level A">${c.score}</span></div><h3>${esc(c.city)} · ${esc(c.lanes[0])}优先</h3><p>第一客户：${esc(c.firstCustomer)}</p><div class="v9-lanes">${c.lanes.map(l=>`<span>${esc(l)}</span>`).join('')}</div><div class="v9-actions"><a href="${esc(c.source)}" target="_blank" rel="noopener">城市来源 ↗</a><span class="v9-verify">7天动作：访谈10个本地客户</span></div></article>`).join('')}</div>`);
+  }
+  function renderSourceLedger(){
+    const grades = [
+      ['S','官方入口','平台/高校/政府/企业官网，一手规则优先。'],['A','专业来源','媒体、研究、机构数据，用于趋势和反方风险。'],['B','深度访谈','播客、创业复盘、一手采访，拆成可复制/不可复制。'],['C','社交线索','小红书、抖音、社群、截图，只能做发现源。']
+    ];
+    return section('source-ledger-v9','信源分级与来源账本','所有财富信息都要可点击、可追溯、可反证。', `<div class="v9-source-ledger">${grades.map(g=>`<article><b>${g[0]}</b><h3>${g[1]}</h3><small>${g[2]}</small></article>`).join('')}</div>`);
+  }
+  function renderReport(){
+    return section('super-individual-panel','AI Native 超级个体财富进化系统','未来的低价增值入口：不是卖焦虑，而是根据个人情况生成机会路线。', `<article class="v9-report-card"><div><h3>${esc(data.reportFunnel.title)}</h3><p>${esc(data.reportFunnel.copy)}</p><h4>免费内容</h4><ul>${data.reportFunnel.free.map(x=>`<li>${esc(x)}</li>`).join('')}</ul><h4>高级报告</h4><ul>${data.reportFunnel.paid.map(x=>`<li>${esc(x)}</li>`).join('')}</ul></div><div class="v9-report-copy"><h3>报告入口文案</h3><p>如果你愿意花一点点钱支持网站长期维护，可以生成一份个人AI财富机会报告。大部分内容仍然免费，高级报告只用于覆盖算力、人工核验和持续更新成本。</p><a class="v9-btn" href="#ai-search">先免费扫描一次</a></div></article>`);
+  }
+  function mount(){
+    const stats = $('#stats');
+    if (!stats) return;
+    stats.insertAdjacentHTML('afterend', renderHero()+renderSignals()+renderCharts()+renderCityLedger()+renderSourceLedger()+renderReport());
+  }
+  if (document.readyState === 'loading') document.addEventListener('DOMContentLoaded', mount); else mount();
+})();

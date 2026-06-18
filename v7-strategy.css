@@ -1,0 +1,430 @@
+window.AI_FIRSTMOVE_V6 = {
+  "version": "V6 · 城市淘金地图",
+  "generatedAt": "2026-06-19T05:02:50+08:00",
+  "brand": {
+    "recommendedName": "AI先机｜青年AI淘金地图",
+    "decision": "不彻底改名。保留“AI先机”作为长期品牌，把首页产品名升级为“青年AI淘金地图”。这样既有机会感，也避免过度“搞钱站”的低信任风险。",
+    "slogan": "一起造浪，一起造富，一起造梦。",
+    "mission": "以极低成本把AI时代的信息、城市资源和一手访谈，翻译成普通年轻人能验证、能行动、能创造价值的机会。"
+  },
+  "firstPrinciples": [
+    {
+      "title": "第一性原理",
+      "icon": "01",
+      "body": "所有淘金线索都先问：谁会付款？痛点是否紧急？交付物是什么？为什么现在需要？7天内能不能拿到真实反馈？"
+    },
+    {
+      "title": "逻辑编排",
+      "icon": "02",
+      "body": "首页不再按“新闻/比赛/工具”排序，而按“城市资源 → 变现线索 → 访谈证据 → 反方风险 → 7天动作”排序。"
+    },
+    {
+      "title": "工程治理",
+      "icon": "03",
+      "body": "每条数据必须有 sourceStack：官方入口、专业媒体/研究、访谈案例、社交线索、反方证据。C级线索不能进入强推荐。"
+    },
+    {
+      "title": "城市优先",
+      "icon": "04",
+      "body": "大学生拿到资源的方式常常不是全网第一，而是离自己最近的高校、城市、实习、社群、园区和本地客户。"
+    },
+    {
+      "title": "造梦约束",
+      "icon": "05",
+      "body": "网站可以有热血和造梦，但不能保证收益；要帮助年轻人为社会创造价值，而不是诱导焦虑消费。"
+    }
+  ],
+  "cityScores": [
+    {
+      "city": "成都",
+      "score": 91,
+      "content": 92,
+      "hackathon": 72,
+      "jobs": 76,
+      "local": 90,
+      "tags": [
+        "游戏文创",
+        "短视频",
+        "本地商家",
+        "远程团队"
+      ],
+      "action": "做AI视频样片/游戏宣发/本地商家短视频服务。",
+      "sourceStatus": "编辑评分：需持续补充成都本地活动与公司官网"
+    },
+    {
+      "city": "杭州",
+      "score": 94,
+      "content": 86,
+      "hackathon": 95,
+      "jobs": 88,
+      "local": 82,
+      "tags": [
+        "创业氛围",
+        "电商",
+        "云计算",
+        "黑客松"
+      ],
+      "action": "优先关注AdventureX、AI工具MVP、电商AI服务和校园创业。",
+      "sourceStatus": "已有AdventureX等公开入口，仍需补本地岗位"
+    },
+    {
+      "city": "长沙",
+      "score": 86,
+      "content": 95,
+      "hackathon": 70,
+      "jobs": 72,
+      "local": 88,
+      "tags": [
+        "短视频",
+        "传媒",
+        "消费",
+        "湖南赛事"
+      ],
+      "action": "做短视频脚本、AI广告图、本地品牌内容和大学生BP。",
+      "sourceStatus": "已有湖南创新创业大赛官方通知，需补平台创作者访谈"
+    },
+    {
+      "city": "上海",
+      "score": 90,
+      "content": 88,
+      "hackathon": 74,
+      "jobs": 94,
+      "local": 84,
+      "tags": [
+        "品牌",
+        "商业化",
+        "咨询",
+        "国际业务"
+      ],
+      "action": "适合GEO、品牌AI内容、AI产品运营和B端服务。",
+      "sourceStatus": "需优先补企业官网招聘和官方活动"
+    },
+    {
+      "city": "深圳",
+      "score": 92,
+      "content": 82,
+      "hackathon": 83,
+      "jobs": 95,
+      "local": 89,
+      "tags": [
+        "硬件",
+        "跨境",
+        "供应链",
+        "短视频电商"
+      ],
+      "action": "适合跨境AI素材、硬件说明视频、企业自动化与短视频服务。",
+      "sourceStatus": "需补深圳官方创业活动与企业岗位"
+    },
+    {
+      "city": "北京",
+      "score": 89,
+      "content": 78,
+      "hackathon": 78,
+      "jobs": 96,
+      "local": 74,
+      "tags": [
+        "大模型",
+        "高校",
+        "研究",
+        "总部"
+      ],
+      "action": "适合AI实习、研究型项目、开发者大会和技术内容。",
+      "sourceStatus": "已有全国大学生创业服务网，需补高校/企业官网"
+    },
+    {
+      "city": "广州",
+      "score": 84,
+      "content": 82,
+      "hackathon": 65,
+      "jobs": 82,
+      "local": 93,
+      "tags": [
+        "电商",
+        "本地商家",
+        "制造",
+        "跨境"
+      ],
+      "action": "适合AI商品图、种草图文、商家短视频和客服自动化。",
+      "sourceStatus": "需补广州本地商家案例"
+    },
+    {
+      "city": "武汉",
+      "score": 82,
+      "content": 75,
+      "hackathon": 76,
+      "jobs": 80,
+      "local": 78,
+      "tags": [
+        "高校",
+        "工程人才",
+        "软件服务"
+      ],
+      "action": "适合高校竞赛、AI软件服务和中小企业自动化。",
+      "sourceStatus": "需补高校创新中心与岗位"
+    },
+    {
+      "city": "南京",
+      "score": 80,
+      "content": 72,
+      "hackathon": 73,
+      "jobs": 82,
+      "local": 76,
+      "tags": [
+        "软件",
+        "科研",
+        "制造数字化"
+      ],
+      "action": "适合制造AI文档、企业内训与自动化工具。",
+      "sourceStatus": "需补园区/高校活动"
+    },
+    {
+      "city": "西安",
+      "score": 78,
+      "content": 70,
+      "hackathon": 72,
+      "jobs": 76,
+      "local": 74,
+      "tags": [
+        "高校",
+        "科研",
+        "航天",
+        "技术服务"
+      ],
+      "action": "适合科研工具、AI课程助教和技术服务作品集。",
+      "sourceStatus": "需补高校与国企生态入口"
+    }
+  ],
+  "trackTrends": [
+    {
+      "track": "GEO/AI搜索优化",
+      "heat": 94,
+      "trust": 72,
+      "difficulty": 70,
+      "verify": "B级访谈 + 反方风险 + 白帽服务才可做",
+      "first": "选一个高客单行业，做10个AI问答可见度测试。"
+    },
+    {
+      "track": "AI漫画/IP种草",
+      "heat": 90,
+      "trust": 58,
+      "difficulty": 52,
+      "verify": "C级社交线索 + 平台商业入口，必须验证成交",
+      "first": "不碰侵权IP，做原创人设与3个商品场景。"
+    },
+    {
+      "track": "小红书虚拟资料/模板",
+      "heat": 88,
+      "trust": 62,
+      "difficulty": 55,
+      "verify": "B级播客案例 + 平台规则风险",
+      "first": "用自己真实场景做一个最小资料包。"
+    },
+    {
+      "track": "AI视频样片服务",
+      "heat": 86,
+      "trust": 68,
+      "difficulty": 61,
+      "verify": "官方工具入口 + 本地商家反馈",
+      "first": "做3条本地店铺样片，线下问10家。"
+    },
+    {
+      "track": "AI PPT/BP重构",
+      "heat": 82,
+      "trust": 76,
+      "difficulty": 48,
+      "verify": "高校赛事需求 + 可展示前后对比",
+      "first": "做3个前后对比案例，面向参赛团队。"
+    },
+    {
+      "track": "AI Agent自动化",
+      "heat": 84,
+      "trust": 74,
+      "difficulty": 82,
+      "verify": "企业级访谈 + 工具门槛高",
+      "first": "从会议纪要/客服/表格自动化切入。"
+    }
+  ],
+  "updatedReasons": [
+    "如果GitHub页面显示17小时前，通常不是“不能频繁修改”，而是Pages没有切到GitHub Actions、Actions没有绿色成功、定时任务延迟，或浏览器缓存。",
+    "V6会在首页显示站点生成时间、最近情报时间、部署路径提示；以后你不用猜是不是没更新。",
+    "工作流时间改成 23 分运行，避开整点高峰，降低GitHub schedule延迟/丢弃概率。"
+  ],
+  "cityResourceCards": [
+    {
+      "city": "成都",
+      "angle": "AI视频 + 游戏文创 + 本地生活",
+      "opportunity": "给游戏/文旅/餐饮/教培做AI视频样片与账号素材包",
+      "firstCustomer": "大学城附近商家、独立游戏团队、文旅民宿",
+      "sevenDays": [
+        "做3条15秒样片",
+        "找10家商家/团队试用",
+        "记录是否愿意发号或付费"
+      ],
+      "stop": "没有任何人愿意使用样片，就换行业或降低复杂度。",
+      "proof": "城市标签为编辑判断，需持续补充本地活动与公司官网。"
+    },
+    {
+      "city": "杭州",
+      "angle": "黑客松 + 电商AI + 创业实验",
+      "opportunity": "把AdventureX/电商生态/云服务转成AI工具MVP和校园创业项目",
+      "firstCustomer": "电商商家、参赛团队、创业社群",
+      "sevenDays": [
+        "选一个电商痛点",
+        "做一个无代码MVP",
+        "找5个商家访谈"
+      ],
+      "stop": "商家只觉得新鲜但不愿意给真实数据。",
+      "proof": "AdventureX公开页面显示青年创客与免费参与机制。"
+    },
+    {
+      "city": "长沙",
+      "angle": "短视频传媒 + 湖南赛事 + 消费品牌",
+      "opportunity": "AI短视频脚本、品牌种草图、直播切片与商业计划书",
+      "firstCustomer": "MCN、校园社团、本地消费品牌",
+      "sevenDays": [
+        "做10个短视频脚本",
+        "找3个账号做免费诊断",
+        "沉淀报价模板"
+      ],
+      "stop": "客户只要免费方案不愿意授权试用。",
+      "proof": "湖南省创新创业大赛官方通知可作为赛事资源入口。"
+    },
+    {
+      "city": "上海",
+      "angle": "品牌商业化 + 咨询 + 国际业务",
+      "opportunity": "GEO诊断、AI品牌内容资产、企业AI流程梳理",
+      "firstCustomer": "咨询公司、教育/医美/法律等高客单服务商",
+      "sevenDays": [
+        "做10个AI搜索测试",
+        "输出一页诊断报告",
+        "约5个B端客户"
+      ],
+      "stop": "如果无法提供白帽内容方案，不要做灰色投喂。",
+      "proof": "GEO访谈是B级线索，需用企业官网/内容资产二次确认。"
+    },
+    {
+      "city": "深圳",
+      "angle": "硬件跨境 + 供应链 + 短视频电商",
+      "opportunity": "跨境商品AI素材、说明视频、客服知识库和Listing优化",
+      "firstCustomer": "跨境卖家、硬件团队、供应链公司",
+      "sevenDays": [
+        "选一个产品类目",
+        "做3张主图和1条说明视频",
+        "找10个卖家反馈"
+      ],
+      "stop": "如果无法拿到真实产品信息和授权素材，先不要商用。",
+      "proof": "城市方向为时间机器推断，需补官方岗位与公司页面。"
+    },
+    {
+      "city": "北京",
+      "angle": "大模型高校 + 技术内容 + 实习",
+      "opportunity": "开发者内容、AI实习作品集、技术型竞赛与开源项目",
+      "firstCustomer": "实验室、技术社群、AI公司HR",
+      "sevenDays": [
+        "做1个GitHub小工具",
+        "写一篇技术拆解",
+        "投5个实习/项目制机会"
+      ],
+      "stop": "如果没有作品链接，只刷信息不行动。",
+      "proof": "全国大学生创业服务网可作为高校创新创业官方入口。"
+    }
+  ],
+  "interviewSources": [
+    {
+      "title": "搞钱女孩：GEO/AI搜索优化",
+      "platform": "小宇宙",
+      "level": "B",
+      "publishedAt": "2026-06",
+      "value": "把“AI搜索可见度”转成B端服务线索。",
+      "caution": "嘉宾收入与案例为访谈线索，不能当普遍收益。",
+      "url": "https://www.xiaoyuzhoufm.com/podcast/63d945ece725b5378a158d29"
+    },
+    {
+      "title": "小红书虚拟资料受限后的合规转型",
+      "platform": "小宇宙",
+      "level": "B",
+      "publishedAt": "2026-04",
+      "value": "从“卖资料”转向原创内容、店铺与自动发货的合规路径。",
+      "caution": "虚拟资料监管与平台规则变化快，必须看官方规则。",
+      "url": "https://www.xiaoyuzhoufm.com/episode/69d3839bb977fb2c4735c653"
+    },
+    {
+      "title": "晚点聊：PixVerse AI视频产品增长",
+      "platform": "小宇宙",
+      "level": "B",
+      "publishedAt": "2025-06",
+      "value": "理解AI视频产品如何增长，反推个人内容服务机会。",
+      "caution": "产品级增长经验不能直接照搬个人副业。",
+      "url": "https://www.xiaoyuzhoufm.com/episode/6846136e7dd7cf6566795214"
+    },
+    {
+      "title": "AI每周谈：企业级Agent进入工作流",
+      "platform": "小宇宙",
+      "level": "B",
+      "publishedAt": "2026",
+      "value": "从企业流程、权限、数据打通理解B端自动化需求。",
+      "caution": "企业Agent不是买工具就能落地，老系统和权限很难。",
+      "url": "https://www.xiaoyuzhoufm.com/podcast/688a34636f5a275f1cba40fd"
+    },
+    {
+      "title": "副业女孩：普通人副业访谈池",
+      "platform": "小宇宙",
+      "level": "B",
+      "publishedAt": "持续更新",
+      "value": "可作为普通人副业案例库，寻找AI工具改造空间。",
+      "caution": "访谈案例需二次核验成本、利润和失败样本。",
+      "url": "https://www.xiaoyuzhoufm.com/podcast/6680021c5c33fe90f5add396"
+    },
+    {
+      "title": "小红书电商访谈：普通人低成本创业机会",
+      "platform": "小宇宙",
+      "level": "B",
+      "publishedAt": "2025-12",
+      "value": "提供小红书电商/虚拟电商的选品和内容线索。",
+      "caution": "课程/训练营导流需要明显标记商业性质。",
+      "url": "https://www.xiaoyuzhoufm.com/episode/694177594c65abaff355cfb3"
+    }
+  ],
+  "specialOpportunities": [
+    {
+      "title": "抖音AI创变者计划",
+      "city": "全国五大赛区",
+      "level": "S",
+      "type": "特殊机会",
+      "why": "覆盖高校与线下交流赛，更适合学生建立作品集和平台连接。",
+      "url": "https://aiia.douyin.com/"
+    },
+    {
+      "title": "AdventureX 2026",
+      "city": "杭州/全球青年",
+      "level": "S",
+      "type": "黑客松",
+      "why": "青年创客密度高，适合作为技术学生的作品和人脉入口。",
+      "url": "https://adventure-x.org/"
+    },
+    {
+      "title": "新北市AI智慧城市黑客松",
+      "city": "新北",
+      "level": "S",
+      "type": "智慧城市黑客松",
+      "why": "由政府真实命题出发，适合学习“城市问题→AI解法”。",
+      "url": "https://www.youth.ntpc.gov.tw/youth/ch/app/course/view?id=181&module=course&serno=c1fc6a64-fed8-4a18-bf72-e2ef58d4efaa"
+    },
+    {
+      "title": "湖南省创新创业大赛",
+      "city": "湖南/长沙",
+      "level": "S",
+      "type": "创业赛事",
+      "why": "给长沙和湖南学生提供本地项目、路演和政策资源入口。",
+      "url": "https://kjt.hunan.gov.cn/kjt/xxgk/tzgg/tzgg_1/202605/t20260528_33989231.html"
+    },
+    {
+      "title": "全国大学生创业服务网",
+      "city": "全国",
+      "level": "S",
+      "type": "高校创业入口",
+      "why": "教育部相关官方入口，适合查高校项目、比赛和创业服务。",
+      "url": "https://cy.ncss.cn/"
+    }
+  ]
+};

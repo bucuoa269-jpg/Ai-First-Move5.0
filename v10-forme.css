@@ -1,0 +1,161 @@
+window.AI_FIRSTMOVE_V9 = {
+  version: 'V9 · AI时代财富机会提纯器',
+  generatedAt: '2026-06-19T06:24:00+08:00',
+  naming: {
+    brand: 'AI先机',
+    product: 'AI时代财富机会提纯器',
+    publicTitle: 'AI先机｜AI时代财富机会提纯器',
+    emotionalLine: 'AI For Me｜为我而生的AI时代',
+    panel: 'AI Native 超级个体财富进化系统',
+    engine: '神农需求证据引擎',
+    oneLine: '把混乱的AI财富信息，提纯成普通人看得懂、信得过、能执行、能复盘的机会。'
+  },
+  principles: [
+    { title: '不追更多信息，追真实付款信号', desc: '热点只有在能指向付款人、交付物、渠道和验证动作时，才进入淘金地图。' },
+    { title: '不贩卖焦虑，降低判断成本', desc: '免费为主，低价增值；官方链接和基础机会永远不设付费墙。' },
+    { title: '不替社群背书，但承认社群价值', desc: '高质量社群、播客、沙龙、一手采访都可作为线索；价格、交付、退款和收益承诺必须标清。' },
+    { title: '不把成功故事当普遍结论', desc: '深访只做证据矿脉：可复制部分、不可复制部分、反方风险和7天验证必须拆开。' }
+  ],
+  dashboard: [
+    { label: '财富线索', value: 86, note: '官方入口、深访、城市活动和平台商业化合并统计' },
+    { label: 'S/A级来源', value: 41, note: '官方/专业来源优先展示' },
+    { label: '深访矿脉', value: 18, note: '播客、访谈、创业复盘、沙龙复盘' },
+    { label: '重点城市', value: 10, note: '成都、杭州、长沙、深圳、上海、北京等' }
+  ],
+  freshSignals: [
+    {
+      id: 'pengzhou-youth-ai-salon-20260618',
+      title: '成都彭州：人工智能赋能青年创业专题沙龙',
+      type: '城市沙龙', platform: '成都统战部/公开报道', city: '成都', level: 'A', timeWindow: '24小时内',
+      publishedAt: '2026-06-18', capturedAt: '2026-06-19T06:24:00+08:00',
+      url: 'https://www.cdtzb.gov.cn/cdstzb/indexJGDJ/2026-06/18/content_6e9e8a8b9afa4054bf731f695bf91673.shtml',
+      aiSummary: '报道提到专家围绕客户需求挖掘、服务效能提升、智能运营决策等实战方向展开分享。对年轻人而言，这不是直接赚钱项目，而是成都本地“AI+青年创业”的资源信号。',
+      facts: ['发布时间为2026-06-18/06-19附近', '主题为人工智能赋能青年创业', '关键词包含客户需求挖掘、服务效能、智能运营'],
+      opportunity: '适合成都大学生从“AI本地商家诊断、AI活动策划、AI运营提效”切入，先做1页诊断报告换访谈。',
+      verify: ['查主办方原文', '记录活动嘉宾/机构', '搜索是否有报名或后续复盘', '联系当地高校/园区确认是否有同类活动'],
+      risk: '沙龙信息不能等于真实订单；必须验证参与者是否愿意继续咨询或付小额诊断费。'
+    },
+    {
+      id: 'hangzhou-ai-founder-20260615',
+      title: '杭州：AI创业者大会与《赢在AI+》第二季启动',
+      type: '城市资源', platform: '杭州发布/新浪财经', city: '杭州', level: 'A', timeWindow: '7天内',
+      publishedAt: '2026-06-15', capturedAt: '2026-06-19T06:24:00+08:00',
+      url: 'https://finance.sina.com.cn/wm/2026-06-15/doc-inicnckx8337372.shtml',
+      aiSummary: '杭州未来科技城出现高密度AI创业者与产业资源曝光，报道提到120位AI创想者集中亮相、8座城市29场路演。对普通人而言，价值在于识别杭州AI创业资源、路演机制和潜在学习样板。',
+      facts: ['2026-06-13在杭州未来科技城举行', '120位AI创想者集中亮相', '《赢在AI+》第二季覆盖8座城市29场路演'],
+      opportunity: '杭州大学生可围绕电商、AI Agent、AI硬件、内容出海做“参会复盘/创业样板拆解/本地资源导航”。',
+      verify: ['打开原文核对主办和时间', '搜索央视《赢在AI+》官方入口', '查未来科技城后续活动', '记录可报名/可旁听/可投递资源'],
+      risk: '大会曝光不等于个人可复制收入；要转成作品集、访谈和资源连接。'
+    },
+    {
+      id: 'changsha-tencent-cloud-20260617',
+      title: '长沙：腾讯云城市峰会聚焦AI产业生态',
+      type: '城市产业', platform: '大公文汇/公开报道', city: '长沙', level: 'A', timeWindow: '7天内',
+      publishedAt: '2026-06-17', capturedAt: '2026-06-19T06:24:00+08:00',
+      url: 'https://www.tkww.hk/a/202606/17/AP6a3248abe4b04773b07075d4.html',
+      aiSummary: '报道描述2026腾讯云城市峰会·长沙站讨论大模型从参数竞赛转向生产力提效，并展示长沙AI产业生态。对年轻人而言，重点不是参会本身，而是从长沙传媒、内容、电商、本地生活中找AI服务切口。',
+      facts: ['2026-06-17报道', '地点涉及湖南湘江新区', '主题为大模型生产力提效与AI产业生态'],
+      opportunity: '长沙适合AI短视频、本地生活内容、品牌视觉、活动视频和文娱资料自动化服务。',
+      verify: ['查腾讯云城市峰会官方页', '查湘江新区AI活动复盘', '搜索参会企业名单', '找本地商家样本'],
+      risk: '产业峰会与大学生个人变现之间有距离，必须下沉到本地客户和交付物。'
+    },
+    {
+      id: 'xhs-pgy-commercial-entry',
+      title: '小红书蒲公英：官方商业合作与商单入口',
+      type: '平台商业化', platform: '小红书蒲公英', city: '线上', level: 'S', timeWindow: '持续有效',
+      publishedAt: '持续开放', capturedAt: '2026-06-19T06:24:00+08:00',
+      url: 'https://pgy.xiaohongshu.com/help/home',
+      aiSummary: '蒲公英帮助中心公开展示品牌入驻、博主合作、定制商单、批量商单、众测招募、数据中心等模块，是核验小红书商业化规则的官方入口。',
+      facts: ['官方帮助中心', '包含合作模式与审核规范', '可以核验定制商单/批量商单/众测招募等概念'],
+      opportunity: 'AI内容服务、AI漫画IP、同城种草、虚拟资料和图文笔记服务，都必须先对齐官方商业化规则。',
+      verify: ['阅读蒲公英合作流程', '查看行业资质要求', '核对广告投放规范', '再评估个人账号是否具备接单条件'],
+      risk: '不要用非官方灰色引流规避规则；小红书案例必须标明是否真实商单。'
+    },
+    {
+      id: 'douyin-xingtu-commercial-entry',
+      title: '巨量星图：抖音达人变现与品牌任务入口',
+      type: '平台商业化', platform: '巨量星图', city: '线上', level: 'S', timeWindow: '持续有效',
+      publishedAt: '持续开放', capturedAt: '2026-06-19T06:24:00+08:00',
+      url: 'https://www.xingtu.cn/',
+      aiSummary: '巨量星图官方定位是抖音营销生态服务平台，核心价值在于达人变现、品牌营销和交易流程管理。适合把抖音AI短视频机会从“流量想象”落到官方商业化路径。',
+      facts: ['官方平台入口', '覆盖达人变现与品牌营销', '适合作为抖音商单规则核验来源'],
+      opportunity: '学生/新手可先做AI短视频样片、脚本拆解、封面测试和垂类账号作品集，不要先承诺播放量。',
+      verify: ['阅读星图入驻规则', '查看商单类型', '核对提现/结算流程', '测试3条垂类内容是否有有效咨询'],
+      risk: '播放量不是付款证明；低粉账号需要先积累作品和垂类信任。'
+    },
+    {
+      id: 'gaoqian-girl-geo-20260618',
+      title: '搞钱女孩：GEO / AI搜索优化访谈',
+      type: '深度访谈', platform: '小宇宙播客', city: '线上', level: 'B', timeWindow: '24小时内',
+      publishedAt: '约2026-06-18', capturedAt: '2026-06-19T06:24:00+08:00',
+      url: 'https://www.xiaoyuzhoufm.com/podcast/63d945ece725b5378a158d29',
+      aiSummary: '节目将GEO描述为AI时代的新流量密码，并讨论2B客户、EEAT、AI搜索可见度、案例转化等内容。它是高价值线索，但仍需要用客户付费、复购和归因数据验证。',
+      facts: ['节目页面显示GEO主题', '讨论EEAT、2B/2C、案例与客户推荐', '属于当事人访谈，不等于普遍结果'],
+      opportunity: '可拆成“AI搜索可见度诊断”人工服务：先给3个小品牌出1页报告，验证是否愿付诊断费。',
+      verify: ['记录节目中的具体案例', '找第二个GEO来源', '做3个品牌样本测试', '询问客户是否愿意付费'],
+      risk: 'GEO归因不稳定，且部分黑产做法存在合规风险；不适合直接做自动化工具。'
+    },
+    {
+      id: 'xhs-virtual-ecommerce-podcast-202601',
+      title: '小红书虚拟电商深访：资料、选品、定价与店铺',
+      type: '深度访谈', platform: '小宇宙播客', city: '线上', level: 'B', timeWindow: '半年内',
+      publishedAt: '2026-01-19', capturedAt: '2026-06-19T06:24:00+08:00',
+      url: 'https://www.xiaoyuzhoufm.com/episode/696dd51b109824f9e1493ad7',
+      aiSummary: '节目围绕小红书虚拟电商、低门槛变现、选品、定价、资料获取、爆款内容模板和店铺运营避坑展开。适合做“虚拟资料产品”线索，但收入叙述必须按当事人案例处理。',
+      facts: ['节目标题明确为小红书虚拟电商', '内容涉及选品、定价、店铺运营', '属于访谈型案例而非官方数据'],
+      opportunity: '可做低风险资料模板、学习清单、AI生成工作流，但必须保证原创性、版权和交付清晰。',
+      verify: ['查小红书店铺规则', '找同类店铺真实价格', '做10条关键词内容测试', '记录评论是否有求链接/询价'],
+      risk: '资料搬运、版权、退款和同质化是核心风险；评论“想要”不等于购买。'
+    },
+    {
+      id: 'algorithm-filterworld-podcast',
+      title: '算法与信息茧房：用来设计反信息茧房机制',
+      type: '认知/反茧房', platform: '小宇宙播客', city: '线上', level: 'B', timeWindow: '7天内',
+      publishedAt: '2026-06', capturedAt: '2026-06-19T06:24:00+08:00',
+      url: 'https://www.xiaoyuzhoufm.com/podcast/61dd99a47b29652ff572257b',
+      aiSummary: '起朱楼宴宾客“算法纪”系列讨论算法、信息环境、过滤气泡与偶然暴露。它不直接提供变现机会，但能帮助本站设计“反信息茧房”：每条机会同时给正证、反证和不同来源。',
+      facts: ['节目页面包含算法、过滤气泡、信息茧房讨论', '涉及学术观点和媒体环境', '适合作为产品方法论来源'],
+      opportunity: '把“反信息茧房”变成产品功能：每张机会卡必须展示失败案例、反方风险和非同平台证据。',
+      verify: ['提炼方法论', '对每条机会加入反方委员会', '避免只展示成功截图'],
+      risk: '认知内容不是变现机会本身，不能抢主线。'
+    },
+    {
+      id: 'xhs-koc-labor-research',
+      title: '小红书KOC劳动研究：内容商业化的反方证据',
+      type: '研究/反方风险', platform: 'arXiv', city: '线上', level: 'A', timeWindow: '长期参考',
+      publishedAt: '2024-09-12', capturedAt: '2026-06-19T06:24:00+08:00',
+      url: 'https://arxiv.org/abs/2409.08360',
+      aiSummary: '研究认为小红书KOC内容劳动在品牌、平台和营销关系中常被低估和遮蔽。这是判断小红书种草副业时的重要反方证据：不是所有内容合作都能公平变现。',
+      facts: ['研究对象为小红书KOC与营销关系', '强调内容劳动价值低估与不稳定', '可作为平台商业化风险参考'],
+      opportunity: '用它提醒用户：做小红书AI内容服务要算清制作时间、修改成本、授权范围和报价。',
+      verify: ['查看原论文摘要', '对比蒲公英官方规则', '记录真实商单报价与修改次数'],
+      risk: '若忽视劳动成本，容易变成低价接单和过度服务。'
+    },
+    {
+      id: 'sz-opc-ai-policy',
+      title: '深圳：人工智能OPC创业生态专题',
+      type: '城市政策/产业', platform: '深圳市工业和信息化局', city: '深圳', level: 'S', timeWindow: '本月重点',
+      publishedAt: '2026-06', capturedAt: '2026-06-19T06:24:00+08:00',
+      url: 'https://gxj.sz.gov.cn/ztfw/ztzl/szaifnxxgyhzt/index.html',
+      aiSummary: '深圳工信局专题提到打造人工智能OPC创业生态引领地，整合人才乐业安居、产业扶持和生态服务资源。对AI超级个体来说，这是城市政策级信号。',
+      facts: ['官方政府专题', '关键词为人工智能OPC创业生态', '涉及人才、产业和生态服务资源'],
+      opportunity: '深圳适合AI自动化、跨境电商内容、硬件资料本地化、Agent实施和一人公司服务。',
+      verify: ['查行动计划全文', '查申报/活动入口', '找深圳本地AI沙龙与园区资源', '访谈目标客户'],
+      risk: '政策资源和个人获益之间存在距离，必须转成具体客户、岗位或活动。'
+    }
+  ],
+  cityMatrix: [
+    { city:'成都', score:92, lanes:['AI文创','本地生活','视频样片','沙龙活动'], firstCustomer:'咖啡店/摄影馆/活动主理人', source:'https://www.cdtzb.gov.cn/cdstzb/indexJGDJ/2026-06/18/content_6e9e8a8b9afa4054bf731f695bf91673.shtml' },
+    { city:'杭州', score:94, lanes:['AI创业','电商','Agent','出海'], firstCustomer:'创业团队/电商商家/开发者活动', source:'https://finance.sina.com.cn/wm/2026-06-15/doc-inicnckx8337372.shtml' },
+    { city:'长沙', score:88, lanes:['短视频','传媒','本地生活','品牌视觉'], firstCustomer:'本地品牌/内容团队/活动方', source:'https://www.tkww.hk/a/202606/17/AP6a3248abe4b04773b07075d4.html' },
+    { city:'深圳', score:93, lanes:['OPC','跨境','硬件','自动化'], firstCustomer:'跨境商家/硬件团队/中小企业', source:'https://gxj.sz.gov.cn/ztfw/ztzl/szaifnxxgyhzt/index.html' },
+    { city:'上海', score:86, lanes:['品牌','商业化','金融科技','内容营销'], firstCustomer:'品牌方/营销团队/创业者', source:'https://www.xingtu.cn/' },
+    { city:'北京', score:85, lanes:['大模型','高校科研','产品求职','政策资源'], firstCustomer:'高校团队/研究型创业者/产品岗位', source:'https://cy.ncss.cn/' }
+  ],
+  reportFunnel: {
+    title: '低价增值，不影响免费使用',
+    free: ['今日机会提纯', '基础信源等级', '城市资源', '深访AI总结', '基础神农扫描', '7天行动建议'],
+    paid: ['个人机会报告', '城市机会周报', 'AI Native财富进化面板', '30天路线', '可研报告'],
+    copy: '本站绝大多数内容永久免费。未来高级报告只用于覆盖算力、人工核验和长期维护成本。'
+  }
+};
