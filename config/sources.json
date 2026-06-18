@@ -1,0 +1,85 @@
+{
+  "official_domains": [
+    "modelscope.cn", "tch.cloud.tencent.com", "cloud.tencent.com", "aistudio.baidu.com",
+    "developer.huawei.com", "adventure-x.org", "github.com", "github.blog", "huggingface.co",
+    "openai.com", "blog.google", "youth.ntpc.gov.tw"
+  ],
+  "professional_domains": [
+    "xiaoyuzhoufm.com", "podcasts.apple.com", "pingwest.com", "36kr.com", "latepost.com"
+  ],
+  "monitored_pages": [
+    {
+      "title": "手机上的创意 AI 挑战赛",
+      "url": "https://modelscope.cn/events/248",
+      "platform": "魔搭社区",
+      "kind": "黑客松",
+      "city": "线上",
+      "sourceLevel": "S",
+      "publishedAt": "2026-06-01",
+      "summary": "官方应用开发赛；活动状态、奖励与截止日期以页面为准。"
+    },
+    {
+      "title": "腾讯云黑客松·游戏开发挑战赛 2026",
+      "url": "https://tch.cloud.tencent.com/contest/40",
+      "platform": "腾讯云",
+      "kind": "黑客松",
+      "city": "全国高校",
+      "sourceLevel": "S",
+      "publishedAt": "2026-04-17",
+      "summary": "面向高校开发者的 AI 游戏创作挑战。"
+    },
+    {
+      "title": "腾讯云黑客松·AI 智能体争霸赛",
+      "url": "https://tch.cloud.tencent.com/contest/41",
+      "platform": "腾讯云",
+      "kind": "黑客松",
+      "city": "多赛区",
+      "sourceLevel": "S",
+      "publishedAt": "2026-04-15",
+      "summary": "Skill 与 Agent 双赛道，强调真实商业场景。"
+    },
+    {
+      "title": "AdventureX 2026",
+      "url": "https://adventure-x.org/",
+      "platform": "AdventureX",
+      "kind": "黑客松",
+      "city": "杭州",
+      "sourceLevel": "S",
+      "publishedAt": "2026-01-01",
+      "summary": "面向青年创造者的学生主导非营利黑客松。"
+    },
+    {
+      "title": "AI Hackathon Tour 2026",
+      "url": "https://modelscope.cn/active/ai-hackathon-tour",
+      "platform": "魔搭社区",
+      "kind": "黑客松",
+      "city": "多城市",
+      "sourceLevel": "S",
+      "publishedAt": "2026-01-01",
+      "summary": "魔搭社区联合高校与各地AI社区开展的黑客松系列。"
+    },
+    {
+      "title": "飞桨 AI Studio 竞赛平台",
+      "url": "https://aistudio.baidu.com/competition",
+      "platform": "百度飞桨",
+      "kind": "比赛平台",
+      "city": "线上",
+      "sourceLevel": "S",
+      "publishedAt": "2026-01-01",
+      "summary": "AI与大数据竞赛官方聚合入口，具体赛题需逐条核验。"
+    }
+  ],
+  "rss_feeds": [
+    {"url":"https://huggingface.co/blog/feed.xml","platform":"Hugging Face","kind":"全球AI","sourceLevel":"S"},
+    {"url":"https://github.blog/ai-and-ml/feed/","platform":"GitHub Blog","kind":"全球AI","sourceLevel":"S"},
+    {"url":"https://openai.com/news/rss.xml","platform":"OpenAI","kind":"全球AI","sourceLevel":"S"},
+    {"url":"https://blog.google/technology/ai/rss/","platform":"Google AI","kind":"全球AI","sourceLevel":"S"},
+    {"url":"https://www.producthunt.com/feed","platform":"Product Hunt","kind":"全球产品","sourceLevel":"A"}
+  ],
+  "discovery_queries": [
+    "AI 黑客松 大赛 大学生",
+    "AI 创业 副业 访谈",
+    "AIGC 招聘 实习",
+    "AI 视频 变现 创作者"
+  ]
+}

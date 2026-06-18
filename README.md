@@ -1,63 +1,13 @@
-# AI先机｜AI Native 青年机会地图
+# AI FirstMove V3
 
-面向大学生与毕业三年内年轻人的 AI 机会情报与行动网站。
+A static GitHub Pages site for AI opportunities, interviews, hackathons, jobs, research cards and youth-friendly action plans.
 
-## 直接运行
+## Automatic refresh
 
-双击 `index.html` 可以查看基础页面；由于部分浏览器限制，本地完整测试建议使用简单服务器。
+`.github/workflows/update-and-deploy.yml` runs every 6 hours, generates `assets/live-data.js`, and deploys the refreshed site to GitHub Pages in the same workflow.
 
-如果电脑安装了 Python：
+## Required GitHub Pages setting
 
-```bash
-python -m http.server 8000
-```
+`Settings -> Pages -> Source: GitHub Actions`
 
-然后打开：
-
-```text
-http://localhost:8000
-```
-
-## GitHub Pages 部署
-
-详细步骤见：
-
-```text
-部署说明_先看我.md
-```
-
-最简步骤：
-
-1. 解压本项目。
-2. 将全部文件上传到 GitHub 仓库根目录。
-3. 打开 `Settings → Pages`。
-4. Source 选择 `Deploy from a branch`。
-5. Branch 选择 `main`，Folder 选择 `/ (root)`。
-6. 保存并等待网站网址生成。
-
-## 特性
-
-- 纯 HTML、CSS、JavaScript；
-- 不需要登录和后端；
-- 40条首批机会卡；
-- 27个S/A级官方或专业入口；
-- 稳副业、创业、求职、比赛、城市、时间机器和访谈；
-- 本地自然语言匹配；
-- 浏览器语音输入；
-- 本地收藏和搜索记录；
-- 浅色与深色模式；
-- 移动端适配；
-- 详情分享使用 Hash 链接，不依赖服务器路由。
-
-## 真实性说明
-
-- S级信息优先链接到官方入口；
-- A级为专业平台；
-- B级副业和创业卡是编辑分析，不代表收益承诺；
-- 活动、招聘、资格和日期会变化，使用前必须打开官方页面复核；
-- 播客收入属于当事人自述，不代表普遍结果。
-
-
-## 完整版说明
-
-本包保留40条机会卡、10个城市、8个专题、3条深度访谈，以及副业、创业、求职、比赛、时间机器、全球视野、信源分级、AI本地推荐、收藏、语音输入和深色模式。未为了部署方便删除核心模块。
+The repository branch remains `main`.

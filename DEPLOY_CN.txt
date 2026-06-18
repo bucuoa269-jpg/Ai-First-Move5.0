@@ -1,0 +1,13 @@
+AI先机 V3｜最短部署说明
+
+一、把压缩包“全部解压”。
+二、把解压后的全部文件复制进你原来的 GitHub 本地仓库根目录，选择替换同名文件。
+三、GitHub Desktop：Commit to main → Push origin。
+四、GitHub 网页：Settings → Pages → Source 选择 GitHub Actions。
+五、GitHub 网页：Actions → Update and deploy AI FirstMove → Run workflow。
+
+说明：
+- main 仍然是你的代码分支，没有取消，也不用改分支。
+- GitHub Actions 只是“网站发布方式”。
+- 每6小时工作流会重新抓取公开信源并直接发布。
+- 原来的分享网址不会改变。

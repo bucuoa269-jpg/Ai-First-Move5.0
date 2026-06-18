@@ -1,0 +1,13 @@
+AI FirstMove V3 - GitHub deployment
+
+1. Extract this ZIP normally.
+2. Copy all extracted files into the root of your existing GitHub repository folder.
+3. In GitHub Desktop: Commit to main, then Push origin.
+4. On GitHub: Settings > Pages > Build and deployment > Source = GitHub Actions.
+5. On GitHub: Actions > Update and deploy AI FirstMove > Run workflow.
+
+Important:
+- Your code still stays on the main branch.
+- Only the Pages publishing source changes to GitHub Actions.
+- The workflow refreshes public-source data every 6 hours and deploys the refreshed site directly.
+- Your website URL does not change.
